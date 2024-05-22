@@ -11,7 +11,14 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up dependencies
-        run: sudo apt-get install -y autoconf
+        run: sudo apt-get install -y autoconf automake
+
+      - name: Check for configure.ac
+        run: |
+          if [ ! -f configure.ac ]; then
+            echo "Error: configure.ac not found!"
+            exit 1
+          fi
 
       - name: Generate configure script
         run: autoconf
