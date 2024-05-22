@@ -6,8 +6,8 @@
 
 ## Introduction
 
-**Node-RED API Dashboard:** [SW](https://drive.google.com/file/d/1zLRS86_t2jiu0NKJF-CHeEPyh4NjXHAV/view?usp=sharing)
-**Harware Interface:** [HW](https://drive.google.com/file/d/1L-0ANzF2LampGnMLCuwHAHUocGBix3rt/view?usp=sharing)
+- **Node-RED API Dashboard:** [SW](https://drive.google.com/file/d/1zLRS86_t2jiu0NKJF-CHeEPyh4NjXHAV/view?usp=sharing)
+- **Harware Interface:** [HW](https://drive.google.com/file/d/1L-0ANzF2LampGnMLCuwHAHUocGBix3rt/view?usp=sharing)
 
 **CasaMonitor** is a project designed to enhance home comfort by allowing users to adjust environmental conditions directly from a computer, thereby improving energy efficiency during home activities, at this link you will see how it actualy works: [Diagram flow](https://drive.google.com/file/d/10yNvxCuC7T1XRNh7v7aW5A-qBJzTKchK/view?usp=sharing)
 
@@ -76,7 +76,7 @@ The project uses various development environments and libraries to achieve its f
 - **Development Environment:** PlatformIO
 - **Libraries:** Node-RED, AVRlib
 
-1. Light Sliders
+#### 1. Light Sliders
 
 **Max Light:**
 
@@ -91,22 +91,22 @@ The project uses various development environments and libraries to achieve its f
 - Sets minimum light intensity without IR or ON-OFF.
 - Activates minimum intensity when other options are inactive.
 
-2. Cooler Button
+#### 2. Cooler Button
 
 - Activates fan for cooling.
 
-3. Data Interface
+#### 3. Data Interface
 
 - Temperature, Humidity, Current, Voltage, Power:
 - Shows real-time values.
 - Linear graphs track changes over time.
 
-4. Control Interface
+#### 4. Control Interface
 
 - Sets light intensity and temperature preferences.
 - Buttons for lights and fan.
 
-5. Temperature Slider
+#### 5. Temperature Slider
 
 - Sets desired temperature.
 - Fan activates if real temperature is higher.
