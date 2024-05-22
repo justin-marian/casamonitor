@@ -6,7 +6,8 @@
 
 ## Introduction
 
-**CasaMonitor** is a project designed to enhance home comfort by allowing users to adjust environmental conditions directly from a computer, thereby improving energy efficiency during home activities.
+**CasaMonitor** is a project designed to enhance home comfort by allowing users to adjust environmental conditions directly from a computer, thereby improving energy efficiency during home activities, at this link you will see how it actualy works: [Diagram flow](https://drive.google.com/file/d/10yNvxCuC7T1XRNh7v7aW5A-qBJzTKchK/view?usp=sharing)
+
 
 ## Main Idea 💡
 
@@ -27,6 +28,10 @@ CasaMonitor's control panel offers multiple benefits:
 ## System Overview
 
 The system uses **Node-RED** for managing data flow and logic between devices. It connects hardware devices and ensures no data loss during sensor data reception. The system communicates with the **Node-RED API** via USB.
+
+<center>
+<img src="./images/sw/casamonitor_descriere.jpg" alt="CasaMonitor Idea" width="50%" height="60%">
+</center>
 
 ## Arduino UNO, USB Cable, Power Supply
 
@@ -50,6 +55,10 @@ The system uses **Node-RED** for managing data flow and logic between devices. I
 
 - **Breadboard and Jumper Wires**: Used for assembling and testing the circuit. Ensures flexibility for future modifications.
 - **ON-OFF Switch**: Allows manual control of the lighting system, easily accessible for quick operation.
+
+<center>
+<img src="./images/hw/casamonitor_schematic.jpg" alt="CasaMonitor Idea" width="75%" height="75%">
+</center>
 
 ### Software Design
 
