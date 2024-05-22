@@ -15,8 +15,8 @@ jobs:
 
       - name: Check for configure.ac
         run: |
-          if [ ! -f configure.ac ]; then
-            echo "Error: configure.ac not found!"
+          if [ ! -f configure ]; then
+            echo "Error: configure not found!"
             exit 1
           fi
 
