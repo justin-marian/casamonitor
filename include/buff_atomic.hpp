@@ -2,7 +2,7 @@
  * @file buff_atomic.hpp
  * @brief Atomic buffer implementation.
  * 
- * @note This file provides an implementation of a FIFO buffer
+ * @note This file provides an implementation of a circular FIFO buffer
  * with atomic operations to ensure thread-safe access in a
  * interrupt-driven environment.
  * It includes a simple spinlock mechanism for atomicity.
