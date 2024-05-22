@@ -13,10 +13,10 @@ jobs:
       - name: Set up dependencies
         run: sudo apt-get install -y autoconf automake
 
-      - name: Check for configure
+      - name: Check for configure.ac
         run: |
-          if [ ! -f configure ]; then
-            echo "Error: configure not found!"
+          if [ ! -f configure.ac ]; then
+            echo "Error: configure.ac not found!"
             exit 1
           fi
 
