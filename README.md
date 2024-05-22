@@ -51,23 +51,6 @@ The system uses **Node-RED** for managing data flow and logic between devices. I
 - **Breadboard and Jumper Wires**: Used for assembling and testing the circuit. Ensures flexibility for future modifications.
 - **ON-OFF Switch**: Allows manual control of the lighting system, easily accessible for quick operation.
 
-### Parts List
-
-| Component                | Price (RON) |
-|--------------------------|-------------|
-| Arduino UNO R3 ATmega328P| 30.76       |
-| IRF520 MOSFET Modules (2 pcs) | 15.68  |
-| INA219 Current Sensor    | 15.57       |
-| DHT22 Temperature Sensor | 33.12       |
-| IR Photoelectric Sensor  | 28.56       |
-| 12V LED Strip            | 13.60       |
-| Power Supply & Extension | 36.30       |
-| 12V 40mm Fan             | 21.90       |
-| Breadboard               | 7.14        |
-| ON-OFF Switch            | 15.50       |
-| Wires & Resistors        | 25.00       |
-| **Total**                | 243.13      |
-
 ### Software Design
 
 The project uses various development environments and libraries to achieve its functionality:
