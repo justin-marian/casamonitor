@@ -66,8 +66,50 @@ The system uses **Node-RED** for managing data flow and logic between devices. I
 
 The project uses various development environments and libraries to achieve its functionality:
 
+<div align="center">
+  <img src="./images/sw/node_red_interaction.jpg" alt="Node-RED Interaction" width="75%" height="75%">
+</div>
+<div align="center">
+  <img src="./images/sw/control_panel_casamonitor.jpg" alt="CasaMonitor Control Panel" width="75%" height="75%">
+</div>
+
 - **Development Environment:** PlatformIO
 - **Libraries:** Node-RED, AVRlib
+
+1. Light Sliders
+
+**Max Light:**
+
+- For IR light or ON-OFF button.
+- Adjusts light intensity and ON-OFF value.
+- Used if motion or ON button is active.
+- Defaults to Min Light if inactive.
+- Sets range; min > max does nothing.
+
+**Min Light:**
+
+- Sets minimum light intensity without IR or ON-OFF.
+- Activates minimum intensity when other options are inactive.
+
+2. Cooler Button
+
+- Activates fan for cooling.
+
+3. Data Interface
+
+- Temperature, Humidity, Current, Voltage, Power:
+- Shows real-time values.
+- Linear graphs track changes over time.
+
+4. Control Interface
+
+- Sets light intensity and temperature preferences.
+- Buttons for lights and fan.
+
+5. Temperature Slider
+
+- Sets desired temperature.
+- Fan activates if real temperature is higher.
 
 The `platformio.ini` file is the main configuration file for the PlatformIO environment. It contains various settings that define how the project is built, uploaded, and monitored. Below is the detailed explanation of the `platformio.ini` configuration used in the CasaMonitor project:
 
