@@ -20,6 +20,9 @@ jobs:
             exit 1
           fi
 
+      - name: Generate aclocal.m4
+        run: aclocal
+
       - name: Generate configure script
         run: autoconf
 
