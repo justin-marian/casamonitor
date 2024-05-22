@@ -1,5 +1,6 @@
+AC_PREREQ([2.69])
 AC_INIT([casamonitor], [1.0], [justin.popescu1605@stud.acs.upb.ro])
-AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE([foreign -Wall -Werror])
 AC_PROG_CC
 AC_CONFIG_FILES([Makefile])
 AC_OUTPUT
