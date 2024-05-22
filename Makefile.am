@@ -1,10 +1,10 @@
-AUTOMAKE_OPTIONS = foreign
+AUTOMAKE_OPTIONS = foreign subdir-objects
 
 # Define the subdirectories
 SUBDIRS = include src
 
 # Include directories
-INCLUDES = -I$(srcdir)/include
+AM_CPPFLAGS = -I$(srcdir)/include
 
 # Define the program to be built
 bin_PROGRAMS = casamonitor
@@ -18,5 +18,5 @@ casamonitor_SOURCES = \
     src/usart.c
 
 # Additional flags and libraries
-casamonitor_CXXFLAGS = -Wall -g $(INCLUDES)
+casamonitor_CXXFLAGS = -Wall -g $(AM_CPPFLAGS)
 casamonitor_LDADD = -lm
