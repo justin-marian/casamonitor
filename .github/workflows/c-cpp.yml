@@ -23,6 +23,12 @@ jobs:
       - name: Generate aclocal.m4
         run: aclocal
 
+      - name: Add missing auxiliary files
+        run: automake --add-missing --copy
+
+      - name: Run autoreconf
+        run: autoreconf --install
+
       - name: Generate configure script
         run: autoconf
 
