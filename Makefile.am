@@ -7,8 +7,8 @@ SUBDIRS = include src
 AM_CPPFLAGS = -I$(srcdir)/include
 
 # Define the program to be built
-bin_PROGRAMS = casamonitor
+bin_PROGRAMS = main
 
 # Additional flags and libraries
-casamonitor_CXXFLAGS = -Wall -g $(AM_CPPFLAGS)
-casamonitor_LDADD = -lm
+main_CXXFLAGS = -Wall -g $(AM_CPPFLAGS)
+main_LDADD = -lm
